@@ -127,13 +127,13 @@ script_functions = { -- table(76e0e45)
 					[5] = '	public static void SetBattleAbuseLogData(ref Dictionary<string, object> dicAbuse) { }',
 					[6] = '0x279CA74',
 				},
-				[7] = { -- table(686c210)
-					[1] = '0x228F3B0',
+				[7] = { -- table(686c217)
+					[1] = '0xF15CC4',
 					[2] = '~A NOP {0}',
 					[3] = true,
-					[4] = 'public class IngameBattleLogManager : MonoBehaviour ',
-					[5] = '	public static IngameBattleLogManager Create(GameObject owner) { }',
-					[6] = '0x228F3B0',
+					[4] = 'public sealed class IngameStatisticsManager : MonoBehaviour_SyncData_Auto ',
+					[5] = '	public void GetBattleLog(ref string logAbuse, ref string logSimul, bool isWin, Nullable<int> continueCount, Nullable<int> allyTeamPower) { }',
+					[6] = '0xF15CC4',
 				},
 			},
 			['name'] = 'God Mode/One Hit',
