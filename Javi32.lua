@@ -87,7 +87,8 @@ script_functions = { -- table(76e0e45)
 					[5] = '	public virtual int get_Level() { }',
 					[6] = '0x1AB2460',
 				},
-				[2] = '0xF5C4FC',
+				[2] = { -- table(1477442)
+					[1] = '0xF5C4FC',
 					[2] = '~A NOP {0}',
 					[3] = true,
 					[4] = 'public sealed class IngameStatisticsManager : MonoBehaviour_SyncData_Auto ',
@@ -139,7 +140,8 @@ script_functions = { -- table(76e0e45)
 					[5] = '	private int get_CurrentEnemyCost() { }',
 					[6] = '0xF03968',
 				},
-				[2] = '0xF5C4FC',
+				[2] = { -- table(1477442)
+					[1] = '0xF5C4FC',
 					[2] = '~A NOP {0}',
 					[3] = true,
 					[4] = 'public sealed class IngameStatisticsManager : MonoBehaviour_SyncData_Auto ',
