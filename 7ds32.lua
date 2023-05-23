@@ -3,76 +3,52 @@ script_functions = { -- table(76e0e45)
 		[1] = { -- table(2a7e2b6)
 			['edits'] = { -- table(7532bb7)
 				[1] = { -- table(c458f24)
-					[1] = '0xF04534',
+					[1] = '0x1313A94',
 					[2] = '~A MOV R0, #1',
 					[3] = true,
 					[4] = 'public abstract class IngameMain : MonoBehaviour, ISyncData ',
 					[5] = '	protected bool get_IsEnemyAnnihilation() { }',
-					[6] = '0xF04534',
+					[6] = '0x1313A94',
 				},
 				[2] = { -- table(5131a8d)
-					[1] = '0x17AB2C8',
+					[1] = '0x178BB30',
 					[2] = '~A MOV R0, #0',
 					[3] = true,
 					[4] = 'public class IngameTurnManager : MonoBehaviour ',
 					[5] = '	public bool get_IsPlayingManager() { }',
-					[6] = '0x17AB2C8',
+					[6] = '0x178BB30',
 				},
 				[3] = { -- table(1477442)
-					[1] = '0xF5C4FC',
+					[1] = '0xF1CB0C',
 					[2] = '~A NOP {0}',
 					[3] = true,
 					[4] = 'public sealed class IngameStatisticsManager : MonoBehaviour_SyncData_Auto ',
 					[5] = '	public void GetBattleAbuseLog(ref Dictionary<string, object> dictAbuse, ref Dictionary<string, object> dictSimul, bool isWin, Nullable<int> continueCount, Nullable<int> allyTeamPower, bool isSimul = False) { }',
-					[6] = '0xF5C4FC',
+					[6] = '0xF1CB0C',
 				},
 				[4] = { -- table(de4cc53)
-					[1] = '0xF5C694',
+					[1] = '0xF1CCA4',
 					[2] = '~A NOP {0}',
 					[3] = true,
 					[4] = 'public sealed class IngameStatisticsManager : MonoBehaviour_SyncData_Auto ',
 					[5] = '	public void SendBattleAbuseLog(bool isWin, Nullable<int> continueCount, Nullable<int> allyTeamPower) { }',
-					[6] = '0xF5C694',
+					[6] = '0xF1CCA4',
 				},
-				[5] = { -- table(686c214)
-					[1] = '0xF0F5D0',
-					[2] = '~A NOP {0}',
-					[3] = true,
-					[4] = 'public abstract class IngameMain : MonoBehaviour, ISyncData ',
-					[5] = '	protected void ProcessBattleAbuseLog() { }',
-					[6] = '0xF0F5D0',
-				},
-				[6] = { -- table(686c217)
-					[1] = '0x28B82D8',
+				[5] = { -- table(686c217)
+					[1] = '0x28F68D8',
 					[2] = '~A NOP {0}',
 					[3] = true,
 					[4] = 'public static class FPNMLogger ',
 					[5] = '	private static void SendLog(int logId, int detailId, string pcSeq, Dictionary<string, object> logDataDic) { }',
-					[6] = '0x28B82D8',
+					[6] = '0x28F68D8',
 				},
-				[7] = { -- table(686c213)
-					[1] = '0x28B9734',
-					[2] = '~A NOP {0}',
-					[3] = true,
-					[4] = 'public static class FPNMLogger ',
-					[5] = '	public static void SetBattleAbuseLogData(ref Dictionary<string, object> dicAbuse) { }',
-					[6] = '0x28B9734',
-				},
-				[8] = { -- table(686c210)
-					[1] = '0x22ABD40',
-					[2] = '~A NOP {0}',
-					[3] = true,
-					[4] = 'public class IngameBattleLogManager : MonoBehaviour ',
-					[5] = '	public static IngameBattleLogManager Create(GameObject owner) { }',
-					[6] = '0x22ABD40',
-				},
-				[9] = { -- table(686c217)
-					[1] = '0xF5C7CC',
+				[6] = { -- table(686c217)
+					[1] = '0xF1CDDC',
 					[2] = '~A NOP {0}',
 					[3] = true,
 					[4] = 'public sealed class IngameStatisticsManager : MonoBehaviour_SyncData_Auto ',
 					[5] = '	public void GetBattleLog(ref string logAbuse, ref string logSimul, bool isWin, Nullable<int> continueCount, Nullable<int> allyTeamPower) { }',
-					[6] = '0xF5C7CC',
+					[6] = '0xF1CDDC',
 				},
 			},
 			['name'] = 'Instant Win',
@@ -80,12 +56,12 @@ script_functions = { -- table(76e0e45)
 		[2] = { -- table(bde79940)
 			['edits'] = { -- table(c23d239)
 				[1] = { -- table(45c938e)
-					[1] = '0x1AB2460',
+					[1] = '0x1A74E64',
 					[2] = '~A MVN R0, #99',
 					[3] = true,
 					[4] = 'public class MonsterData ',
 					[5] = '	public virtual int get_Level() { }',
-					[6] = '0x1AB2460',
+					[6] = '0x1A74E64',
 				},
 				[2] = { -- table(1477442)
 					[1] = '0xF5C4FC',
@@ -133,12 +109,12 @@ script_functions = { -- table(76e0e45)
 		[3] = { -- table(eda72de)
 			['edits'] = { -- table(7b6bcbf)
 				[1] = { -- table(10abf8c)
-					[1] = '0xF03968',
+					[1] = '0x1312DF0',
 					[2] = '~A MOV R0, #0',
 					[3] = true,
 					[4] = 'public abstract class IngameMain : MonoBehaviour, ISyncData ',
 					[5] = '	private int get_CurrentEnemyCost() { }',
-					[6] = '0xF03968',
+					[6] = '0x1312DF0',
 				},
 				[2] = { -- table(1477442)
 					[1] = '0xF5C4FC',
