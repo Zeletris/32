@@ -117,12 +117,12 @@ script_functions = { -- table(76e0e45)
 		[3] = { -- table(eda72de)
 			['edits'] = { -- table(7b6bcbf)
 				[1] = { -- table(10abf8c)
-					[1] = '0x131DEC8',
+					[1] = '0x131DCF8',
 					[2] = '~A MOV R0, #0',
 					[3] = true,
 					[4] = 'public abstract class IngameMain : MonoBehaviour, ISyncData ',
-					[5] = '	private int get_CurrentEnemyCost() { }',
-					[6] = '0x131DEC8',
+					[5] = '	public int get_MaxEnemyCost() { }',
+					[6] = '0x131DCF8',
 				},
 				[2] = { -- table(1477442)
 					[1] = '0xFA8B20',
