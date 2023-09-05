@@ -169,7 +169,7 @@ script_functions = { -- table(76e0e45)
 		},
 	},
 }
-generated_script_title = "7DS Script by Zeletris v2.32.0"
+generated_script_title = "7DS Script by Zeletris v2.33.0"
 target_process = "com.netmarble.nanagb"
 target_name = "7DS"
 arch = gg.getTargetInfo()
